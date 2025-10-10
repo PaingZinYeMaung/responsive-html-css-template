@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.sidebar {
+    list-style-type: none;
+    width: 25%;
+    background-color:#17aecc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    /* padding-left: 1px; */
+    padding: 20px 15px 10px 20px; 
+}
+.sidebar li a.active{
+    background-color: rgb(124, 206, 43);
+
+}
+@media screen and (max-width: 900px) {
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar li a {
+        float: left;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sidebar li a{
+        text-align: center;
+        float: none;
+    }
+    
+}
