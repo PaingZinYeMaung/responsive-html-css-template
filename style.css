@@ -31,6 +31,20 @@ body{
     height: auto;
     padding: 3px 15px;
 }
+.two ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.card img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
 @media screen and (max-width: 900px) {
     .sidebar{
         width: 100%;
@@ -46,6 +60,13 @@ body{
     .sidebar li a{
         text-align: center;
         float: none;
+    }
+    .one{
+        margin-left: 0;
+    }
+    .two ul{
+        display: grid;
+        grid-template-columns: 1fr;
     }
     
 }
