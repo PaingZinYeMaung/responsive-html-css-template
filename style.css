@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    /* margin-top: 0; */
+
 }
 .sidebar {
     list-style-type: none;
@@ -15,11 +17,19 @@ body{
     color: white;
     display: block;
     /* padding-left: 1px; */
-    padding: 20px 15px 10px 20px; 
+    /* padding: 20px 15px 10px 20px;  */
+    padding: 8px 15px;
 }
 .sidebar li a.active{
     background-color: rgb(124, 206, 43);
-
+}
+.sidebar li a:hover{
+    background-color: rgb(225, 215, 16);
+}
+.one{
+    margin-left: 25%;
+    height: auto;
+    padding: 3px 15px;
 }
 @media screen and (max-width: 900px) {
     .sidebar{
