@@ -45,6 +45,20 @@ body{
     height: auto;
     width: 100%;
 }
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.three .box{
+    padding: 10px;
+}
+.three .box:first-child{
+    background-color: #84ad9f;
+}
+.three .box:last-child{
+    background-color: #a1ad84;
+}
 @media screen and (max-width: 900px) {
     .sidebar{
         width: 100%;
@@ -64,9 +78,8 @@ body{
     .one{
         margin-left: 0;
     }
-    .two ul{
+    .two ul, .three{
         display: grid;
         grid-template-columns: 1fr;
     }
-    
 }
