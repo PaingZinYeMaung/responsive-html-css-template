@@ -1,7 +1,6 @@
 body{
     margin: 0;
     /* margin-top: 0; */
-
 }
 .sidebar {
     list-style-type: none;
@@ -30,6 +29,7 @@ body{
     margin-left: 25%;
     height: auto;
     padding: 3px 15px;
+    /* position: fixed; */
 }
 .two ul{
     list-style-type: none;
@@ -49,6 +49,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    /* height: 130px; */
 }
 .three .box{
     padding: 10px;
@@ -59,6 +60,23 @@ body{
 .three .box:last-child{
     background-color: #a1ad84;
 }
+.footer{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4067ab;
+    text-align: center;
+    color: white;
+    height: 20px;
+}
+.footer .c1{
+    float: left;
+    text-align: center;
+}
+.footer .c2{
+    float: right;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     .sidebar{
         width: 100%;
